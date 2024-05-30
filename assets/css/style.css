@@ -60,3 +60,99 @@ nav ul{
 .cercle{
     
 }
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+}
+.Charts{
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    
+    
+}
+.Charts img{
+    width: 100px;
+    padding: 50px;
+}
+.covers{
+    margin-right: 50px;
+
+}
+.new {
+    margin-left: 30px;
+   margin-top: 20px;
+}
+.By{
+    /* justify-content: center;
+    align-items:  center;
+    text-align: center;
+     */
+     padding: 20px;
+     position: relative;
+     margin-bottom: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #D9D9D9;
+    margin-left: 30px;
+    margin-left: 80px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#182A3C; */
+}
+.fun{
+    margin-right: 50px;
+}
+input[type="submit"] {
+    background-color: #1762a7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1762a7;
+}
+span{
+    color: #D01FBF;
+}
+.container{
+    background-color: #202027;
+}
+@media (max-width: 768px){
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+                         
